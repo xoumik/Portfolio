@@ -62,6 +62,21 @@ const Text = styled.div`
     font-size: calc(0.5rem + 1.5vw);
     font-weight: 300;
   }
+
+  @media (max-width: 768px) {
+    font-size: calc(0.8em + 1vw);
+    padding: 1rem;
+
+    & > * {
+      font-size: calc(0.8rem + 1vw);
+      line-height: 1.2;
+    }
+
+    & > h3,
+    & > h6 {
+      word-wrap: break-word;
+    }
+  }
 `;
 
 const Intro = () => {
