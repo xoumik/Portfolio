@@ -32,15 +32,6 @@ export const Work = [
   },
   {
     id: 4,
-    name: "Sorting Visualizer",
-    description: "A cool looking website for learning sorting algorithms",
-    tags: ["NextJs", "Tailwind-CSS"],
-
-    demo: "https://sorting-visualizer-mu-hazel.vercel.app/",
-    github: "https://github.com/xoumik/sorting-visualizer",
-  },
-  {
-    id: 5,
     name: "Travel With Me",
     description: "Let's take a tour of the world!",
     tags: ["HTML", "CSS", "JS"],
@@ -49,12 +40,12 @@ export const Work = [
     github: "https://github.com/xoumik/TravelWithMe",
   },
   {
-    id: 6,
+    id: 5,
     name: "BeatTrack",
     description: "Will be available soon!!",
     tags: ["ReactJs", "Tailwind-CSS", "Flask", "Gemini-AI", "ML"],
 
-    demo: "https://beat-track.vercel.app/",
+    demo: "#",
     github: "https://github.com/xoumik/BeatTrack",
   },
 ];
